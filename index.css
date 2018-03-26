@@ -1,0 +1,35 @@
+/* index.css */
+html, body {
+    margin:0;
+    padding:2%;
+    height:100%;
+    width:100%;
+    background: linear-gradient(to bottom right, #2ecc71, #3498db);
+    background-attachment: fixed;
+    color:white;
+}
+
+.mepxbz {
+    z-index: 1000;
+    position: relative;
+}
+.mepxbz h1 {
+    font-size: 4em;
+}
+.mepxbz img {
+    color:white;
+    border-radius: 50%;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+}
+.mepxbz p {
+    font-size: 1.5em;
+}
+.mepxbz input {
+    background: rgba(0,0,0,0.2);
+    border:2px solid white;
+    height:35px;
+    width:200px;
+    vertical-align: bottom;
+}
